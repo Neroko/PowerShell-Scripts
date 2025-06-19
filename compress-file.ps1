@@ -1,4 +1,5 @@
 # Define the path to the 7z.exe executable
+#$7ZipPath = "C:\Program Files\7-Zip\7z.exe"
 $7ZipPath = "7-Zip\7z.exe"
 
 # Define the source folder to compress:
