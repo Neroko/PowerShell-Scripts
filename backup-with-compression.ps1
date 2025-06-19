@@ -24,10 +24,6 @@ Copy-Item -Path $SourcePath -Destination $BackupFolder -Recurse -Force
 
 Write-Host "Backup completed successfully to: $BackupFolder"
 
-# Define the path to the 7z.exe executable:
-#$7ZipPath = "C:\Program Files\7-Zip\7z.exe"
-$7ZipPath = "7-Zip\7za.exe"
-
 # Define the source folder to compress:
 $SourceFolder = ""
 
